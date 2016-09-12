@@ -40,6 +40,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "install": "bower install"
+    "install": "bower install",
+    "postinstall": "grunt"
   }
 }
