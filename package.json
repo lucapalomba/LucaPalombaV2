@@ -39,6 +39,6 @@
   },
   "scripts": {
     "test": "grunt test",
-    "postinstall": "bower install"
+    "postinstall": "bower install, grunt --force "
   }
 }
