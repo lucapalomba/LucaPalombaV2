@@ -1,0 +1,26 @@
+/* animation works */
+
+.view-animate.ng-enter,
+.view-animate.ng-leave {
+    -webkit-transition: 1s linear all;
+    transition: 1s linear all;
+}
+/* ENTER START HERE*/
+
+.view-animate.ng-enter {
+    opacity: 0;
+}
+/* ENTER FINISH HERE*/
+
+.view-animate.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+/* LEAVE START HERE */
+
+.view-animate.ng-leave {
+    position: absolute;
+    opacity: 0;
+}
+/* LEAVE FINISH HERE */
+
+.view-animate.ng-leave.ng-leave-active {}

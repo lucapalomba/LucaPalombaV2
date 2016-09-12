@@ -1,0 +1,57 @@
+@import "variables.less";
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: @grey;
+    color: @text;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.maincontent {
+    min-height: 550px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 80px;
+}
+
+/* transtions in enter */
+@import "view-transitions.less";
+/* import left menu drawer css */
+@import "menudrawer.less";
+
+/* PAGE: main */
+@import "main.less";
+
+/* PAGE: main */
+@import "coming-soon.less";
+
+.footer {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.footer .inred {
+    color: @red;
+}
+
+
+.mobile-alert{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+  
+        
+    .alert{
+          background-color: darken(@grey,10%);
+        margin-bottom: 0px;
+        }    
+        
+}
