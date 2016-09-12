@@ -35,11 +35,10 @@
     "grunt-contrib-less": "1.0.0"
   },
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "grunt test",
-    "install": "bower install",
-    "postinstall": "grunt --force "
+    "install": "bower install"
   }
 }
